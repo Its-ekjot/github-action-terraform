@@ -7,5 +7,5 @@ variable "aws_region" {
 variable "bucket_name" {
   type        = string
   description = "Your Bucketname"
-  default     = "metroc-oct-2025-23"
+  default     = "pragra-sep-2026-11"
 }

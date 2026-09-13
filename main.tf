@@ -5,3 +5,4 @@ resource "aws_s3_bucket" "my_bucket" {
 resource "random_id" "rand" {
   byte_length = 4
 }
+
