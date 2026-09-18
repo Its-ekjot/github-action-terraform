@@ -9,3 +9,22 @@ variable "bucket_name" {
   description = "Your Bucketname"
   default     = "pragra-sep-2026-11"
 }
+
+variable "ec2_ami" {
+  type        = string
+  default     = "ami-0aeec3e3fd048bf12"
+  description = "Enter EC2 AMI ID"
+}
+
+variable "instance_type" {
+  type        = string
+  default     = "t2.micro"
+  description = "Enter EC2 Instance Type"
+}
+
+variable "ec2_key_pair" {
+  type        = string
+  default     = "Ekjot-keypair"
+  description = "Enter EC2 Key Pair Name"
+}
+
