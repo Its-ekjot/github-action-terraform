@@ -8,7 +8,7 @@ terraform {
   }
   backend "s3" {
     bucket = "pragra-sep17"
-    key    = key = "env/dev/app/terraform.tfstate"
+    key    = "env/dev/app/terraform.tfstate"
     region = "ca-central-1"
   }
 }
